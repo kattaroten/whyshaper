@@ -4,9 +4,9 @@
   "package": "net.examplemod.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "MixinTitleScreen"
   ],
   "mixins": [
+    "MixinWorldShaperItem"
   ],
   "injectors": {
     "defaultRequire": 1
