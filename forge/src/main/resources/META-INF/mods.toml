@@ -23,13 +23,13 @@ side = "BOTH"
 [[dependencies.examplemod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "${minecraft_version}"
+versionRange = ">=${minecraft_version}"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.examplemod]]
 modId="create"
 mandatory=true
-versionRange="${create_version}"
+versionRange=">=${create_version}"
 ordering="NONE"
 side="BOTH"
